@@ -1,5 +1,5 @@
-/* Para que 1rem=10px */
-/* Paleta de colores #2b3951 #BCB8B1 #A48A7F */
+/* font-size: 62,5%; (Para que 1rem=10px) */
+/* Paleta de colores #2b3951 (azul) #0a5b8b (azul claro) #A48A7F (arena) #d8cec6 (arena claro) */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html{
@@ -13,6 +13,11 @@ body{
 *{
     margin: 0px;
     padding: 0px;
+}
+
+.row{
+    max-width: 100%;
+    justify-content: center;
 }
 
 /* header */
@@ -37,7 +42,7 @@ nav{
 .nav-item{
     list-style: none;
     display: inline-block;
-    margin: 0px 30px;
+    margin-left: 30px;
 }
 
 .nav-link{
@@ -49,7 +54,6 @@ nav{
     color: white;
     font-weight: 700;
 }
-
 
 
 /* main */
@@ -90,23 +94,24 @@ h2{
 /*  About */
 
 .about{
-    padding-left: 50px;
+    background-color: #d8cec6;
+    justify-content: center;
+    padding: 50px;
     
 }
 
 .about h2{
+    padding: 20px 0;
     text-align: start;
-    letter-spacing: .3em
+    font-size: 3rem;
 }
 
 .about p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .about img{
-    width: 350px;
-    
-
+    width: 200px;   
 }
 
 /* Categorias */
