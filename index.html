@@ -3,28 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Sabor Errante | Recetas para </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="./index.html"> <img src="./media/logo.png" alt="Logo" class="logo"></a>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./pages/recetas.html">Recetas</a></li>
-                <li><a href="./pages/resenas.html">Reseñas</a></li>
-                <li><a href="./pages/videos.html">Videos</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md nav_bar">
+            <div class="container-fluid">
+                <a class="navbar-brand logo_header" href="./index.html"><img src="./media/logo.png" alt="Logo" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav_bar-link">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/recetas.html">RECETAS</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/resenas.html">RESEÑAS</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/videos.html">VIDEOS</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <!-- Banner -->
         <section class="banner">
-            <!-- Background image como banner de fondo en css -->
-            <h1>Sabor <span>Errante</span></h1>
-            <p>La comida como estilo de vida</p>
+            <div class="container row">
+                <div class="col-lg-12">
+                    <!-- Background image como banner de fondo en css -->
+                    <h1>Sabor <span>Errante</span></h1>
+                    <p>La comida como estilo de vida</p>
+                </div>                
+            </div>
+        </section>
+        <!-- Presentación/About -->
+        <section class="about">
+            <div class="container row">
+                <div class="col-lg-8 col-xs-12">
+                    <h2>Hola! Soy Martin</h2>
+                    <p>Desde chico me gusto cocinar y comer rico. Busco todo el tiempo aprender recetas nuevas, jugar con diferente ingredientes y experimentar con sabores, tanto clásicos como exóticos. Sabor Errante nace para poder compartir recetas que son parte de mi vida y descubrir lugares nuevos donde ir a comer que por la experiencia o por el sabor llegan a mi corazón. </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./media/avatar-intro.png" alt="avatar">
+                </div>
+            </div>
         </section>
         <!--Categorias -->
         <section>
@@ -105,5 +134,6 @@
             </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

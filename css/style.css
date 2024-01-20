@@ -28,24 +28,29 @@ header img{
     margin: 10px;
 }
 
-header nav{
+nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
 
-header li{
+.nav-item{
     list-style: none;
     display: inline-block;
     margin: 0px 30px;
 }
 
-header a{
+.nav-link{
     color: white;
-    text-decoration: none;
     font-size: 1.5rem;
-    display: inline-block;
 }
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white;
+    font-weight: 700;
+}
+
+
 
 /* main */
 
@@ -80,6 +85,28 @@ h2{
     font-size: 4rem;
     padding: 50px 0px;
     text-align: center;
+}
+
+/*  About */
+
+.about{
+    padding-left: 50px;
+    
+}
+
+.about h2{
+    text-align: start;
+    letter-spacing: .3em
+}
+
+.about p{
+    font-size: 2rem;
+}
+
+.about img{
+    width: 350px;
+    
+
 }
 
 /* Categorias */
@@ -142,7 +169,7 @@ h2{
     height: 300px;
 }
 
-.recipes h4{
+.recipes h3{
     font-size: 1.8rem;
     padding: 10px;
 }
@@ -176,7 +203,7 @@ footer{
     width: 100%;
 }
 
-.column-left h4{
+.column-left h3{
     font-size: 2rem;
 }
 
@@ -206,7 +233,7 @@ footer{
     width: 100%;
 }
 
-.column-right h4{
+.column-right h3{
     font-size: 2rem;
     text-align: right;
     padding-bottom: 10px;
