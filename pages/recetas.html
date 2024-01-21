@@ -38,15 +38,13 @@
     </main>
     <footer>
         <section class="footer">
-            <div class="column-left">
-                <div>
-                    <h4>Redes Sociales</h4>
-                    <a href="https://www.youtube.com/@Saborerrante" target="_blank"><img src="../media/youtube.svg" alt="Youtube"></a>
-                    <a href="https://www.instagram.com/saborerrante/" target="_blank"><img src="../media/instagram.svg" alt="Instagram"></a>
-                    <a href="https://www.tiktok.com/@sabor.errante" target="_blank"><img src="../media/tiktok.svg" alt="Tik Tok"></a>
+            <div class="container row nav_social">
+                <div class="col-lg-auto col-md-12 rr_ss">
+                    <a class="" href="https://www.youtube.com/@Saborerrante" target="_blank"><img src="./media/youtube.svg" alt="Youtube"></a>
+                    <a href="https://www.instagram.com/saborerrante/" target="_blank"><img src="./media/instagram.svg" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@sabor.errante" target="_blank"><img src="./media/tiktok.svg" alt="Tik Tok"></a>
                 </div>
-                <div>
-                    <h4>Links</h4>
+                <div class="col-lg-6 col-md-12 nav_link">
                     <ul>
                         <li><a href="../index.html">Inicio</a></li>
                         <li><a href="#">Recetas</a></li>
@@ -54,14 +52,16 @@
                         <li><a href="./videos.html">Videos</a></li>
                         <li><a href="./contacto.html">Contacto</a></li>
                     </ul>
+                    
                 </div>
-            </div>
-           
-            <div class="column-right">
-                <h4>Suscribite</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa animi vel inventore reiciendis consectetur, ad nesciunt vero pariatur harum repellat nam libero doloremque rerum unde tenetur ratione commodi, culpa iste?</p>
-                <input type="email" name="email" id=""><br>
-                <input type="button" value="Enviar">
+                <div class="col-auto suscribe">
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Suscribirse" aria-label="Suscribirse" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </footer>

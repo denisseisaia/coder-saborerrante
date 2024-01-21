@@ -18,6 +18,7 @@ body{
 .row{
     max-width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 /* header */
@@ -201,7 +202,7 @@ h2{
 }
 
 .btn {
-     background-color: #2b3951;
+    background-color: #2b3951;
 }
 
 .btn:hover{
@@ -216,64 +217,48 @@ h2{
 
 footer{
     background-color: #2b3951;
-    height: 200px;  
     padding: 20px 0px;
 }
 
 .footer{
     color: #ffffff;
+    margin: 0px 100px;
+}
+
+.rr_ss{
     display: flex;
-    justify-content:space-between;
-    margin: 50px 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.column-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 100%;
-}
-
-.column-left h3{
-    font-size: 2rem;
-}
-
-.column-left img{
-    height: 21px;
+.rr_ss a{
     width: 21px;
-    padding: 10px 10px 10px 0px;
+    height: 21px;
+    margin: 0 20px;
 }
 
-.column-left li{
+.nav_link{
+    padding: 20px;
+}
+
+.nav_link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_link li{
     list-style: none;
-    font-size: 1rem;
-    padding-right: 20px;
-    padding-top: 10px;
-    display: inline-block;
+    margin: 0 20px;
 }
 
-.column-left a{
+.nav_link a{
     text-decoration: none;
     color: #ffffff;
+    font-size: 1.2rem;    
 }
 
-.column-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    width: 100%;
-}
-
-.column-right h3{
-    font-size: 2rem;
-    text-align: right;
-    padding-bottom: 10px;
-}
-
-.column-right p{
-    font-size: 1.2rem;
-    text-align: right;
-    overflow-wrap: break-word;
-    display: flex;
-    padding-bottom: 20px;
+.suscribe{
+    padding: 20px;
 }
