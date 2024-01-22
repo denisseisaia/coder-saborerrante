@@ -27,7 +27,7 @@ header{
     background-color: #2b3951;
     position: sticky;
     top: 0px;
-    z-index: 1;
+    z-index: 3;
 }
 
 header img{
@@ -168,7 +168,6 @@ h2{
 
 .recipes img{
     height: 300px;
-    border-radius: 10% 10% 0% 0;
 }
 
 .recipes h3{
@@ -189,23 +188,22 @@ h2{
 }
 
 .card{
-    border-radius: 10%;
     width: 320px;
 }
 
-.card-body img{
+.card_inicio img{
     height: 20px;
 }
 
-.btn {
+.boton_inicio {
     background-color: #2b3951;
 }
 
-.btn:hover{
+.boton_inicio:hover{
     background-color: #0a5b8b;
 }
 
-.card-body p{
+.card_inicio p{
     font-size: 1.2rem;
 }
 
@@ -288,7 +286,6 @@ footer{
     height: 400px;
     object-fit: cover;
     object-position: center;
-    border-radius: 10% 10% 0% 0;
 }
 
 .recipes_page h3{
@@ -308,14 +305,60 @@ footer{
     color: #ffffff;
 }
 
-.btn {
+.boton_recetas {
     background-color: #2b3951;
 }
 
-.btn:hover{
+.boton_recetas:hover{
     background-color: #0a5b8b;
+    color: white;
 }
 
-.card-body p{
+.card_recetas p{
     font-size: 1.2rem;
+}
+
+/* RESEÑAS */
+
+/* Banner */
+.banner_resenas{
+    background-image: url(../media/banner_resenas.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: left;
+    color: white;
+    text-shadow: -1px -1px 20px rgba(0,0,0,1);
+}
+
+/* Main reseñas */
+
+.resenas{
+    padding: 50px;
+}
+
+.resenas_card{
+    padding: 10px;
+}
+
+.resenas_card h3{
+    padding: 20px 0;
+}
+
+.resenas_card a{
+    text-decoration: none;
+    color: #0a5b8b;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.resenas_card p{
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.img_carousel img{
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
 }
