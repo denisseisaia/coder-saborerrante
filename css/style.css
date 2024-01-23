@@ -195,14 +195,15 @@ h2{
     height: 20px;
 }
 
-.boton_inicio {
+.boton {
     background-color: #2b3951;
     font-size: 1.5rem;
+    color: #ffffff;
 }
 
-.boton_inicio:hover{
+.boton:hover{
     background-color: #0a5b8b;
-    color: #ffffff;
+    color: white;
 }
 
 .card_inicio p{
@@ -294,6 +295,7 @@ footer{
     font-size: 2rem;
     padding: 10px;
     font-weight: 700;
+    color: #0a5b8b;
 }
 
 .recipes_page p{
@@ -305,16 +307,6 @@ footer{
 
 .recipes_page a{
     color: #ffffff;
-}
-
-.boton_recetas {
-    background-color: #2b3951;
-    font-size: 1.5rem;
-}
-
-.boton_recetas:hover{
-    background-color: #0a5b8b;
-    color: white;
 }
 
 .card_recetas p{
@@ -412,6 +404,7 @@ footer{
 .card_videos h3{
     font-size: 2rem;
     font-weight: 700;
+    color: #0a5b8b;
 }
 
 /* CONTACTO */
@@ -433,9 +426,9 @@ footer{
     padding: 50px;
 }
 
-.card_contacto{
+/* .card_contacto{
    padding: 20px;
-}
+} */
 
 .datos_completar{
     font-size: 1.5rem;
@@ -444,6 +437,8 @@ footer{
 .encabezado_form h3{
     font-size: 2rem;
     font-weight: 700;
+    color: #0a5b8b;
+    padding: 20px;
 }
 
 .encabezado_form p{
