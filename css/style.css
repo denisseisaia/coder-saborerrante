@@ -177,7 +177,7 @@ h2{
 }
 
 .recipes p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     inline-size: 300px;
     overflow-wrap: break-word;
     padding-bottom: 20px;
@@ -197,14 +197,16 @@ h2{
 
 .boton_inicio {
     background-color: #2b3951;
+    font-size: 1.5rem;
 }
 
 .boton_inicio:hover{
     background-color: #0a5b8b;
+    color: #ffffff;
 }
 
 .card_inicio p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /* footer */
@@ -250,7 +252,7 @@ footer{
 .nav_link a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.2rem;    
+    font-size: 1.5rem;    
 }
 
 .suscribe{
@@ -295,7 +297,7 @@ footer{
 }
 
 .recipes_page p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     inline-size: 300px;
     overflow-wrap: break-word;
     padding-bottom: 20px;
@@ -307,6 +309,7 @@ footer{
 
 .boton_recetas {
     background-color: #2b3951;
+    font-size: 1.5rem;
 }
 
 .boton_recetas:hover{
@@ -315,7 +318,7 @@ footer{
 }
 
 .card_recetas p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /* RESEÑAS */
@@ -409,4 +412,40 @@ footer{
 .card_videos h3{
     font-size: 2rem;
     font-weight: 700;
+}
+
+/* CONTACTO */
+/* Banner */
+.banner_contacto{
+    background-image: url(../media/banner_contacto.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: left;
+    color: white;
+    text-shadow: -1px -1px 20px rgba(0,0,0,1);
+}
+
+/* main contacto */
+
+.contacto{
+    background-color: #d8cec6;
+    padding: 50px;
+}
+
+.card_contacto{
+   padding: 20px;
+}
+
+.datos_completar{
+    font-size: 1.5rem;
+}
+
+.encabezado_form h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.encabezado_form p{
+    font-size: 1.5rem;
 }
