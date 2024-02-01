@@ -35,30 +35,30 @@ header img{
     margin: 10px;
 }
 
-nav{
+.nav_bar{
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
 
-.nav-item{
+.nav_item{
     list-style: none;
     display: inline-block;
     margin-left: 30px;
 }
 
-.nav-link{
+.nav_link{
     color: white;
     font-size: 1.5rem;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+.navbar_nav .nav_link.active, .nav_link:hover{
     color: white;
     font-weight: 700;
 }
 
-
-/* Banner index */
+/* INDEX */
+/* Banner */
 
 .banner{
     background-image: url(../media/banner.jpg);
@@ -94,7 +94,7 @@ h2{
     text-align: center;
 }
 
-/*  About index */
+/* Presentacion */
 
 .about{
     background-color: #d8cec6;
@@ -117,7 +117,7 @@ h2{
     width: 200px;   
 }
 
-/* Categorias index */
+/* Categorias */
 
 .categories{
     display: flex;
@@ -144,7 +144,7 @@ h2{
     justify-content: center;
 }
 
-/* Destacadas index */
+/* Destacadas */
 
 .featured{
     background-color: #af9a7d;
@@ -157,7 +157,7 @@ h2{
     padding: 50px 0px;
 }
 
-.recipes{
+.featured_recipes{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -166,24 +166,27 @@ h2{
     gap: 2em;
 }
 
-.recipes img{
-    height: 300px;
+.featured_recipes img{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
 }
 
-.recipes h3{
+.featured_recipes h3{
     font-size: 2rem;
     padding: 10px;
-    font-weight: 700;
+    font-weight: 700;    
+    color: #0a5b8b;
 }
 
-.recipes p{
+.featured_recipes p{
     font-size: 1.5rem;
     inline-size: 300px;
     overflow-wrap: break-word;
     padding-bottom: 20px;
 }
 
-.recipes a{
+.featured_recipes a{
     color: #ffffff;
 }
 
@@ -191,7 +194,11 @@ h2{
     width: 320px;
 }
 
-.card_inicio img{
+.card_box{
+    width: 320px;
+}
+
+.card_content img{
     height: 20px;
 }
 
@@ -210,7 +217,7 @@ h2{
     font-size: 1.5rem;
 }
 
-/* footer */
+/* Footer */
 
 footer{
     background-color: #2b3951;
@@ -219,45 +226,51 @@ footer{
 
 .footer{
     color: #ffffff;
-    margin: 0px 100px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
 }
 
 .rr_ss{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 
-.rr_ss a{
+.rr_ss img{
     width: 21px;
     height: 21px;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
-.nav_link{
+.nav_link_footer {
     padding: 20px;
-}
-
-.nav_link ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav_link li{
+
+.nav_link_footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_link_footer li{
     list-style: none;
     margin: 0 20px;
 }
 
-.nav_link a{
+.nav_link_footer a{
     text-decoration: none;
     color: #ffffff;
     font-size: 1.5rem;    
 }
 
 .suscribe{
-    padding: 20px;
+    padding: 0 20px;
 }
 
 /* RECETAS */
@@ -309,7 +322,7 @@ footer{
     color: #ffffff;
 }
 
-.card_recetas p{
+.card_box p{
     font-size: 1.5rem;
 }
 
