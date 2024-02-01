@@ -1,0 +1,18 @@
+// Paleta de colores #2b3951 (azul) #0a5b8b (azul-claro) #A48A7F (arena) #d8cec6 (arena-claro)
+
+$font: 'Montserrat', sans-serif;
+
+$azul: #2b3951;
+$azul-c: #0a5b8b;
+$arena: #A48A7F;
+$arena-c: #d8cec6;
+$blanco: #ffffff;
+
+// mixin
+
+@mixin flex ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

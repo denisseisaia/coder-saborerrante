@@ -1,0 +1,64 @@
+@import "generales/variables";
+
+/* Estilos generales */
+// font-size: 62,5%; (Para que 1rem=10px)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    font-size: 62.5%;
+    font-family: $font;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+
+h2{
+    color: $azul;
+    font-size: 4rem;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: 700;    
+    color: $azul-c;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+a{
+    color: $blanco;
+    font-size: 1.5rem;
+}
+
+.fila{
+    max-width: 100%;
+    @include flex (row, center, center);
+}
+
+
+
+@import "generales/headerFooter";
+@import "page/index";
+@import "page/recetas";
+@import "page/receta-completa";
+@import "page/resenas";
+@import "page/resenas-completo";
+@import "page/videos";
+@import "page/contacto";
+
+@import "generales/mediaQ";
