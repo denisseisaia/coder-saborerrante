@@ -71,25 +71,8 @@
                 object-position: center;
             }
             .card_content{           
-                @include flex (column, center, center);
                 img{
                     height: 20px;
-                }
-                h3{   
-                    color: $azul-c;
-                    text-align: center;
-                }
-                p{
-                    text-align: center;
-                    padding-bottom: 20px
-                }
-                .boton{
-                    background-color: $azul;
-                    font-size: 1.5rem;
-                    color: $blanco;
-                    &:hover{
-                        background-color: #0a5b8b;
-                    }
                 }
             }
         }

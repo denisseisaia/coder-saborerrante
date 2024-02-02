@@ -1,0 +1,27 @@
+/* VIDEOS */
+
+/* Banner */
+
+.banner_videos{
+    background-image: url(../media/banner_videos.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    color: $blanco;
+    text-shadow: -1px -1px 20px rgba(0,0,0,1);
+}
+
+/* Videos */
+
+.video_page{
+    @include flex (row, center, center);
+    margin-bottom: 50px;
+    gap: 30px;
+    .card_box{
+        video{
+            width: 300px;
+            height: 560px;
+        }
+    }
+}

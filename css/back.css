@@ -1,48 +1,3 @@
-/* RESEÑAS */
-
-/* Banner */
-/* .banner_resenas{
-    background-image: url(../media/banner_resenas.jpg);
-    height: 350px;
-    background-size: cover;
-    background-position: bottom;
-    text-align: left;
-    color: white;
-    text-shadow: -1px -1px 20px rgba(0,0,0,1);
-} */
-
-/* Main reseñas */
-
-/* .resenas{
-    padding: 0 50px 50px 50px;
-}
-
-.resenas_card{
-    padding: 10px;
-} */
-/* 
-.resenas_card h3{
-    padding: 20px 0;
-} */
-
-/* .resenas_card a{
-    text-decoration: none;
-    color: #0a5b8b;
-    font-size: 2rem;
-    font-weight: 700;
-} */
-
-/* .resenas_card p{
-    padding-bottom: 20px;
-    font-size: 1.5rem;
-} */
-/* 
-.img_carousel img{
-    height: 350px;
-    object-fit: cover;
-    object-position: center;
-} */
-
 /* VIDEOS */
 
 /* Banner */
@@ -58,7 +13,7 @@
 
 /* main videos */
 
-.video_section{
+/* .video_section{
     margin: 0 0 50px 0;
     display: flex;
     flex-direction: row;
@@ -69,7 +24,7 @@
 .video_page{
     width: 300px;
     height: 560px;
-}
+} */
 
 .boton_videos {
     background-color: #2b3951;
