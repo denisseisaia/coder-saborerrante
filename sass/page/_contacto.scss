@@ -1,0 +1,39 @@
+/* CONTACTO */
+
+/* Banner */
+.banner_contacto{
+    background-image: url(../media/banner_contacto.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: left;
+    color: $blanco;
+    text-shadow: -1px -1px 20px rgba(0,0,0,1);
+}
+
+/* Contacto */
+
+.contacto{
+    background-color: #d8cec6;
+    padding: 50px;
+    .card_box{
+        width: 600px;
+        .card_content{
+            padding: 10px;
+            margin-top: 20px;
+            .card_form{
+                width: 90%;
+                margin-top: 20px;
+                .datos_completar{
+                    font-size: 1.5rem;
+                }
+            }
+            .boton{
+                margin-top: 20px;
+                width: 100px;
+            }
+        }
+    }
+}
+
+

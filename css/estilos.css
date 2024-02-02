@@ -335,4 +335,40 @@ footer .footer .nav_footer ul li a {
   height: 560px;
 }
 
+/* CONTACTO */
+/* Banner */
+.banner_contacto {
+  background-image: url(../media/banner_contacto.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: bottom;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: -1px -1px 20px rgb(0, 0, 0);
+}
+
+/* Contacto */
+.contacto {
+  background-color: #d8cec6;
+  padding: 50px;
+}
+.contacto .card_box {
+  width: 600px;
+}
+.contacto .card_box .card_content {
+  padding: 10px;
+  margin-top: 20px;
+}
+.contacto .card_box .card_content .card_form {
+  width: 90%;
+  margin-top: 20px;
+}
+.contacto .card_box .card_content .card_form .datos_completar {
+  font-size: 1.5rem;
+}
+.contacto .card_box .card_content .boton {
+  margin-top: 20px;
+  width: 100px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
