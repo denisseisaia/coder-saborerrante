@@ -1,0 +1,97 @@
+/* Index */
+
+// Banner
+.banner{
+    background-image: url(../media/banner.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: left;
+    color: $blanco;
+    text-shadow: -1px -1px 20px rgba(0,0,0,1);
+    span{
+        font-weight: 200;
+    }
+    p{
+        font-size: 2rem;
+        padding-left: 50px; 
+    }
+}
+
+// Presentacion
+.about{
+    background-color: $arena-c;
+    justify-content: center;
+    padding: 50px;
+    h2{
+        padding: 20px 0;
+        text-align: start;
+        font-size: 3rem;
+    }
+    img{
+        width: 200px;
+    }
+}
+
+// Categorias
+.categories{
+    @include flex (row, space-around, center);
+    flex-wrap: wrap;
+    img{
+        width: 350px;
+        border-radius: 50%;
+    }
+    a{
+        font-size: 2.2rem;
+        text-decoration: none;
+        font-weight: 900;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 180px;
+        @include flex (row, center, center);
+    }
+}
+
+// Destacadas
+.featured{
+    background-color: $arena;
+    padding: 0 50px 50px 50px;
+    h2{
+        color: $blanco;
+    }
+    .featured_recipes{
+        @include flex (row, center, center);
+        flex-wrap: wrap;
+        gap: 2em;
+        .card_box{
+            width: 320px;
+            img{
+                height: 400px;
+                object-fit: cover;
+                object-position: center;
+            }
+            .card_content{           
+                @include flex (column, center, center);
+                img{
+                    height: 20px;
+                }
+                h3{   
+                    color: $azul-c;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    padding-bottom: 20px
+                }
+                .boton{
+                    background-color: $azul;
+                    font-size: 1.5rem;
+                    color: $blanco;
+                    &:hover{
+                        background-color: #0a5b8b;
+                    }
+                }
+            }
+        }
+    }
+}

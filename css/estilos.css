@@ -119,4 +119,109 @@ footer .footer .nav_footer ul li a {
   text-decoration: none;
 }
 
+/* Index */
+.banner {
+  background-image: url(../media/banner.jpg);
+  height: 650px;
+  background-size: cover;
+  background-position: bottom;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: -1px -1px 20px rgb(0, 0, 0);
+}
+.banner span {
+  font-weight: 200;
+}
+.banner p {
+  font-size: 2rem;
+  padding-left: 50px;
+}
+
+.about {
+  background-color: #d8cec6;
+  justify-content: center;
+  padding: 50px;
+}
+.about h2 {
+  padding: 20px 0;
+  text-align: start;
+  font-size: 3rem;
+}
+.about img {
+  width: 200px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.categories img {
+  width: 350px;
+  border-radius: 50%;
+}
+.categories a {
+  font-size: 2.2rem;
+  text-decoration: none;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured {
+  background-color: #A48A7F;
+  padding: 0 50px 50px 50px;
+}
+.featured h2 {
+  color: #ffffff;
+}
+.featured .featured_recipes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.featured .featured_recipes .card_box {
+  width: 320px;
+}
+.featured .featured_recipes .card_box img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.featured .featured_recipes .card_box .card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featured .featured_recipes .card_box .card_content img {
+  height: 20px;
+}
+.featured .featured_recipes .card_box .card_content h3 {
+  color: #0a5b8b;
+  text-align: center;
+}
+.featured .featured_recipes .card_box .card_content p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.featured .featured_recipes .card_box .card_content .boton {
+  background-color: #2b3951;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.featured .featured_recipes .card_box .card_content .boton:hover {
+  background-color: #0a5b8b;
+}
+
 /*# sourceMappingURL=estilos.css.map */
