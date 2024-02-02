@@ -29,7 +29,6 @@ h3 {
   font-size: 2rem;
   padding: 10px;
   font-weight: 700;
-  color: #0a5b8b;
 }
 
 p {
@@ -119,7 +118,8 @@ footer .footer .nav_footer ul li a {
   text-decoration: none;
 }
 
-/* Index */
+/* INDEX */
+/* Banner */
 .banner {
   background-image: url(../media/banner.jpg);
   height: 650px;
@@ -137,6 +137,7 @@ footer .footer .nav_footer ul li a {
   padding-left: 50px;
 }
 
+/* Presentacion */
 .about {
   background-color: #d8cec6;
   justify-content: center;
@@ -151,6 +152,7 @@ footer .footer .nav_footer ul li a {
   width: 200px;
 }
 
+/* Categorias */
 .categories {
   display: flex;
   flex-direction: row;
@@ -175,6 +177,7 @@ footer .footer .nav_footer ul li a {
   align-items: center;
 }
 
+/* Destacadas */
 .featured {
   background-color: #A48A7F;
   padding: 0 50px 50px 50px;
@@ -221,6 +224,59 @@ footer .footer .nav_footer ul li a {
   color: #ffffff;
 }
 .featured .featured_recipes .card_box .card_content .boton:hover {
+  background-color: #0a5b8b;
+}
+
+/* RECETAS */
+/* Banner */
+.banner_recetas {
+  background-image: url(../media/banner_recetas.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: bottom;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: -1px -1px 20px rgb(0, 0, 0);
+}
+
+/* Recetas */
+.recipes_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 50px 50px 50px;
+  gap: 2em;
+}
+.recipes_page .card_box {
+  width: 320px;
+}
+.recipes_page .card_box img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.recipes_page .card_box .card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.recipes_page .card_box .card_content h3 {
+  color: #0a5b8b;
+  text-align: center;
+}
+.recipes_page .card_box .card_content p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.recipes_page .card_box .card_content .boton {
+  background-color: #2b3951;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.recipes_page .card_box .card_content .boton:hover {
   background-color: #0a5b8b;
 }
 

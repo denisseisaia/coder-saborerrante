@@ -1,6 +1,6 @@
-/* Index */
+/* INDEX */
 
-// Banner
+/* Banner */
 .banner{
     background-image: url(../media/banner.jpg);
     height: 650px;
@@ -18,7 +18,7 @@
     }
 }
 
-// Presentacion
+/* Presentacion */
 .about{
     background-color: $arena-c;
     justify-content: center;
@@ -33,7 +33,7 @@
     }
 }
 
-// Categorias
+/* Categorias */
 .categories{
     @include flex (row, space-around, center);
     flex-wrap: wrap;
@@ -52,7 +52,7 @@
     }
 }
 
-// Destacadas
+/* Destacadas */
 .featured{
     background-color: $arena;
     padding: 0 50px 50px 50px;
