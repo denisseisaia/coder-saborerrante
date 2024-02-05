@@ -263,6 +263,96 @@ footer .footer .nav_footer ul li a {
   object-position: center;
 }
 
+/* RECETAS COMPLETA*/
+/* Banner */
+.banner_recetas {
+  background-image: url(../media/banner_recetas.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: bottom;
+  text-align: left;
+  color: #ffffff;
+  text-shadow: -1px -1px 20px rgb(0, 0, 0);
+}
+
+/* Recetas */
+.recipes_complete {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 50px 50px 50px;
+  gap: 2em;
+}
+.recipes_complete .card_box {
+  width: auto;
+}
+.recipes_complete .card_box img {
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+.recipes_complete .resume {
+  background-color: #A48A7F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 50px 20px;
+}
+.recipes_complete .resume .resume_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.recipes_complete .resume .resume_items img {
+  width: 20px;
+  height: 20px;
+}
+.recipes_complete .resume .resume_items p {
+  color: #ffffff;
+  padding: 0;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+.recipes_complete .descripcion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
+.recipes_complete .descripcion .ingredientes {
+  padding: 40px;
+}
+.recipes_complete .descripcion .ingredientes h3 {
+  color: #0a5b8b;
+  text-align: center;
+  text-transform: uppercase;
+}
+.recipes_complete .descripcion .ingredientes li {
+  font-size: 1.5rem;
+}
+.recipes_complete .descripcion .instrucciones {
+  padding: 40px;
+}
+.recipes_complete .descripcion .instrucciones h3 {
+  color: #0a5b8b;
+  text-align: center;
+  text-transform: uppercase;
+}
+.recipes_complete .descripcion .instrucciones p {
+  padding-top: 20px;
+  font-size: 2rem;
+}
+.recipes_complete .descripcion .instrucciones li {
+  font-size: 1.5rem;
+  list-style-type: decimal;
+}
+
 /* RESEÑAS */
 /* Banner */
 .banner_resenas {
@@ -292,12 +382,7 @@ footer .footer .nav_footer ul li a {
 }
 .resenas .resenas_card .card_content h3 {
   padding-bottom: 20px;
-}
-.resenas .resenas_card .card_content a {
-  text-decoration: none;
   color: #0a5b8b;
-  font-size: 2rem;
-  font-weight: 700;
 }
 .resenas .resenas_card .card_content .mapa {
   width: 100%;

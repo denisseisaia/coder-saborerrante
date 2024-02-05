@@ -1,0 +1,85 @@
+/* RECETAS COMPLETA*/
+
+/* Banner */
+
+.banner_recetas{
+    background-image: url(../media/banner_recetas.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: left;
+    color: $blanco;
+    text-shadow: -1px -1px 20px rgba(0,0,0,1);
+}
+
+/* Recetas */
+
+.recipes_complete{
+    @include flex (row, center,center);
+    flex-wrap: wrap;
+    padding: 0 50px 50px 50px;
+    gap: 2em;
+    .card_box{
+        width: auto;
+        img{
+            height: 500px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    .resume{
+        background-color: $arena;
+        @include flex (row, space-around, center);
+        flex-wrap: wrap;
+        height: auto;
+        padding: 50px 20px;
+        .resume_items{
+            @include flex (row, center, center);
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            p{
+                color: $blanco;
+                padding: 0;
+                margin: 0 10px;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .descripcion{
+        @include flex (row, space-around, start);
+        .ingredientes{
+            padding: 40px;
+            h3{
+                color: $azul-c;
+                text-align: center;
+                text-transform:uppercase;
+            }
+
+            li{
+                font-size: 1.5rem;
+            }
+        }
+        
+        .instrucciones{
+            padding: 40px;
+            h3{
+                color: $azul-c;
+                text-align: center;
+                text-transform:uppercase;
+            }
+
+            p{
+                padding-top: 20px;
+                font-size: 2rem;
+                
+            }
+
+            li{
+                font-size: 1.5rem;
+                list-style-type: decimal;
+            }
+        }
+    }
+}
