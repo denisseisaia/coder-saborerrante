@@ -49,6 +49,7 @@ footer{
         .nav_footer{
             padding: 20px;
             ul{
+                padding-left: 0;
                 @include flex (row, center, center);
                 flex-wrap: wrap;
                 li{
@@ -56,6 +57,9 @@ footer{
                     margin: 0 20px;
                     a{
                         text-decoration: none;
+                    }
+                    &:hover{
+                        font-weight: 700;
                     }
                 }
             }

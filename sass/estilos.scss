@@ -66,7 +66,8 @@ a{
             font-size: 1.5rem;
             color: $blanco;
             &:hover{
-                background-color: #0a5b8b;
+                background-color: $arena;
+                font-weight: 600;
             }
         }
     }
@@ -80,7 +81,6 @@ a{
 @import "page/recetas";
 @import "page/receta-completa";
 @import "page/resenas";
-@import "page/resenas-completo";
 @import "page/videos";
 @import "page/contacto";
 

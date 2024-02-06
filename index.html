@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabor Errante | Recetas y reseñas </title>
+    <title>Sabor Errante | La comida como estilo de vida</title>
+    <meta name="description" content="En Sabor Errante encontrarás recetas de cocina casera paso a paso. Cocina en casa con videos y recetas fáciles, ademas de conocer lugares increibles donde ir a comer!">
+    <meta name="keywords" content="recetas, comer, comida, cocinar, restaurant, postres, almuerzo, cena, desayuno, reseña">
     <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS COMPILADO -->
@@ -11,10 +13,10 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md nav_bar">
+        <nav class="navbar navbar-dark navbar-expand-md nav_bar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img src="./media/logo.png" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -61,17 +63,23 @@
         <section>
             <h2>Buscá entre <b>Categorías</b></h2>
             <div class="categories">
-                <div>
-                    <img src="./media/entradas_fill.jpg" alt="Entrada">
-                    <a href="./pages/recetas.html">Entrada</a>
+                <div class="circle">
+                    <a href="./pages/recetas.html">
+                        <img src="./media/entradas_fill.jpg" alt="Entrada">
+                        <h3>Entradas</h3>
+                    </a>
                 </div>
-                <div>
-                    <img src="./media/principal_fill.jpg" alt="Plato Principal">
-                    <a href="./pages/recetas.html">Plato principal</a>
+                <div class="circle">
+                    <a href="./pages/recetas.html">
+                        <img src="./media/principal_fill.jpg" alt="Plato Principal">
+                        <h3>Plato principal</h3>
+                    </a>
                 </div>
-                <div>
-                    <img src="./media/postre_fill.jpg" alt="Postre">
-                    <a href="./pages/recetas.html">Postre</a>
+                <div class="circle">
+                    <a href="./pages/recetas.html">
+                        <img src="./media/postre_fill.jpg" alt="Postre">
+                        <h3>Postre</h3>
+                    </a>
                 </div>
             </div>            
         </section>
@@ -126,7 +134,7 @@
                     <a href="https://www.instagram.com/saborerrante/" target="_blank"><img src="./media/instagram.svg" alt="Instagram"></a>
                     <a href="https://www.tiktok.com/@sabor.errante" target="_blank"><img src="./media/tiktok.svg" alt="Tik Tok"></a>
                 </div>
-                <div class="col-lg-auto col-md-12 mt-3 nav_footer">
+                <div class="col-lg-6 col-md-12 mt-3 nav_footer">
                     <ul>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="./pages/recetas.html">Recetas</a></li>
