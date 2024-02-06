@@ -193,8 +193,8 @@ footer .footer .nav_footer ul li:hover {
   flex-wrap: wrap;
 }
 .categories .circle {
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 50px;
