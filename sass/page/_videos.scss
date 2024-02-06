@@ -1,7 +1,6 @@
 /* VIDEOS */
 
 /* Banner */
-
 .banner_videos{
     background-image: url(../media/banner_videos.jpg);
     height: 350px;
@@ -13,7 +12,6 @@
 }
 
 /* Videos */
-
 .video_page{
     @include flex (row, center, center);
     flex-wrap: wrap;

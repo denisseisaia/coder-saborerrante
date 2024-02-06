@@ -1,7 +1,6 @@
 /* RESEÑAS */
 
 /* Banner */
-
 .banner_resenas{
     background-image: url(../media/banner_resenas.jpg);
     height: 350px;
@@ -13,11 +12,9 @@
 }
 
 /* Reseñas */
-
 .resenas{
     padding: 0 50px;
     @include flex (column, center, center);
-
     .resenas_card{
         @include flex (row, center, center);
         padding-bottom: 50px;

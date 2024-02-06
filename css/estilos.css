@@ -477,8 +477,8 @@ footer .footer .nav_footer ul li:hover {
   width: 100px;
 }
 
-/* MediaQ */
-/* MOBILE */
+/* MEDIA QUERIES */
+/* Mobile */
 @media (max-width: 480px) {
   /*Header*/
   .hamburguesa {
@@ -581,7 +581,7 @@ footer .footer .nav_footer ul li:hover {
     width: auto;
   }
 }
-/* TABLET */
+/* Tablet */
 @media (min-width: 481px) and (max-width: 767px) {
   .hamburguesa {
     border: rgba(255, 255, 255, 0.5) solid 2px;

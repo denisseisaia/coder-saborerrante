@@ -1,14 +1,11 @@
 /* Header */
-
 header{
     background-color: $azul;
     position: sticky;
     top: 0px;
     z-index: 3;
-
     .nav_bar{
         @include flex (row, space-between, center);
-        
         img{
             width: 80px;
             margin: 10px;
@@ -18,7 +15,6 @@ header{
                 list-style: none;
                 display: inline-block;
                 margin-left: 30px;
-
                 .nav_link{
                     color: $blanco;
                     font-size: 1.5rem;
@@ -32,7 +28,6 @@ header{
 }
 
 /* Footer */
-
 footer{
     background-color: $azul;
     padding: 20px 0px;

@@ -1,7 +1,6 @@
 /* RECETAS COMPLETA*/
 
 /* Banner */
-
 .banner_recetas{
     background-image: url(../media/banner_recetas.jpg);
     height: 350px;
@@ -13,7 +12,6 @@
 }
 
 /* Recetas */
-
 .recipes_complete{
     @include flex (row, center,center);
     flex-wrap: wrap;
@@ -56,12 +54,10 @@
                 text-align: center;
                 text-transform:uppercase;
             }
-
             li{
                 font-size: 1.5rem;
             }
         }
-        
         .instrucciones{
             padding: 40px;
             h3{
@@ -69,13 +65,11 @@
                 text-align: center;
                 text-transform:uppercase;
             }
-
             p{
                 padding-top: 20px;
                 font-size: 2rem;
                 
             }
-
             li{
                 font-size: 1.5rem;
                 list-style-type: decimal;
