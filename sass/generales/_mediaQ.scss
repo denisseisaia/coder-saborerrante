@@ -39,11 +39,15 @@
         }
     }
     .categories{
-        img{
+        .circle{
             width: 260px;
-        }
-        a{
-           bottom: 150px;
+            height: 260px;
+            a{
+                h3{
+                    font-size: 1.8rem;
+                    bottom: 150px;
+                }
+             }
         }
     }
     .featured{
@@ -115,7 +119,7 @@
 }
 
 /* Tablet */
-@media  (min-width:481px) and (max-width:767px) {
+@media  (min-width:481px) and (max-width:1024px) {
     .hamburguesa{
         border: rgba(255, 255, 255, 0.5) solid 2px;
     }
@@ -137,6 +141,19 @@
             padding: 20px 0;
         }
     }
+    .categories{
+        .circle{
+            width: 280px;
+            height: 280px;
+            a{
+                h3{
+                    font-size: 2rem;
+                    bottom: 160px;
+                }
+             }
+        }
+    }
+
     .featured{
         padding: 0 30px 30px 30px;        
     }

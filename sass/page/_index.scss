@@ -38,8 +38,8 @@
     @include flex (row, space-around, center);
     flex-wrap: wrap;
     .circle{
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
         overflow: hidden;
         margin-bottom: 50px;
@@ -60,7 +60,7 @@
                 font-weight: 900;
                 text-transform: uppercase;
                 position: relative;
-                bottom: 180px;
+                bottom: 170px;
                 @include flex (row, center, center);
             }
         }
